@@ -1,0 +1,45 @@
+.chatScreen > p {
+	text-align: center;
+	color: slategray;
+	padding: 10px;
+}
+.message {
+	display: flex;
+	align-items: center;
+	margin: 30px;
+}
+.avatar {
+	margin-right: 10px;
+}
+.textMessage {
+	background-color: rgb(194, 193, 193);
+	padding: 15px;
+	border-radius: 50px;
+}
+.textUser {
+	background-color: #29b3cd;
+	padding: 15px;
+	border-radius: 50px;
+	color: white;
+	margin-left: auto;
+}
+.inputArea {
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #dddddd;
+	height: 3rem;
+}
+.inputArea > input {
+	margin-left: 10px;
+	flex: 1;
+
+	border: none;
+}
+.inputArea > button {
+	border: none;
+	color: #fe3d88;
+	background-color: white;
+	margin-right: 10px;
+}

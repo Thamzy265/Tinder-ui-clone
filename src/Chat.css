@@ -1,0 +1,18 @@
+.chat {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+.chat__info {
+	display: flex;
+	align-items: center;
+}
+.chat__avatar {
+	margin-right: 15px;
+}
+.chat__display > p {
+	color: slategray;
+}
+.chat__time {
+	color: silver;
+}
